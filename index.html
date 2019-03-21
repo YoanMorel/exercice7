@@ -3,24 +3,36 @@
   <head>
     <meta charset="utf-8">
     <title>Exercice7</title>
-    <link rel="stylesheet" href="exercice.css">
+    <link rel="stylesheet" type="text/css" href="exercice.css">
   </head>
   <body>
     <form action="index.html" method="post">
+      <!-- Form 1 -->
       <fieldset class="blue">
         <legend class="blue">Votre identité</legend>
         <ol>
-          <li><label for="nom">Nom : </label><input type="text" id="nom" placeholder="Nom" /></li>
-          <li><label for="prenom">Prenom : </label><input type="text" id="prenom" placeholder="Prenom" /></li>
-          <li><label for="mail">Adresse mail : </label><input type="email" id="mail" placeholder="Adresse mail" /></li>
+          <li>
+            <label for="nom">Nom : </label>
+            <input type="text" id="nom" placeholder="Nom" />
+          </li>
+          <li>
+            <label for="prenom">Prenom : </label>
+            <input type="text" id="prenom" placeholder="Prenom" />
+          </li>
+          <li>
+            <label for="mail">Adresse mail : </label>
+            <input type="email" id="mail" placeholder="Adresse mail" />
+          </li>
         </ol>
       </fieldset>
+      <!-- form2 -->
       <fieldset class="purple">
         <legend class="purple">Adresse de livraison</legend>
         <ol>
           <li>
             <label for="adresse">Adresse : </label>
-            <textarea name="adresse" rows="5" cols="20"></textarea>
+            <textarea name="adresse" rows="5" cols="20">
+            </textarea>
           </li>
           <li>
             <label for="postcode">Code Postal : </label>
@@ -32,6 +44,7 @@
           </li>
         </ol>
       </fieldset>
+      <!-- form3 -->
       <fieldset class="pink">
         <legend class="pink">Information de réglement</legend>
         <ol>
